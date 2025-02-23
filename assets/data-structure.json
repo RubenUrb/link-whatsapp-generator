@@ -1,7 +1,32 @@
 {
     "cards": [
-        { "title": "TE-01", "description": "https://www.google.com/maps/d/u/0/edit?mid=18PVTKervx5NCg2OZDkbezzZCybaSuhE&ll=43.48752105621331%2C-5.514488500000003&z=12"},
-        { "title": "TE-02", "description": "https://www.google.com/maps/d/u/0/edit?mid=18PVTKervx5NCg2OZDkbezzZCybaSuhE&ll=43.48752105621331%2C-5.514488500000003&z=12"},
-        { "title": "TE-03", "description": "https://www.google.com/maps/d/u/0/edit?mid=18PVTKervx5NCg2OZDkbezzZCybaSuhE&ll=43.48752105621331%2C-5.514488500000003&z=12"}
+        { "number": "PU-01", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1vIhGs9x8UQULkePTjiAMYCJFuQA_yhs&usp=drive_link"},
+        { "number": "PU-02", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1qnAtRCLPhD3pycg5jcP3LpEcpBZtV7o&usp=drive_link"},
+        { "number": "PU-03", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=17sqCu0ZyOXFPtx7FA-pnakmaUac6IKo&usp=drive_link"},
+        { "number": "PU-04", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=183NF6FcBWZQBtMk6N4MWuf4LGVBHzuU&usp=drive_link"},
+        { "number": "PU-05", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1kQJr4V3oNZZnKiPsHHzxjw1M3cLQ2dk&usp=drive_link"},
+        { "number": "PU-06", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1WT6aHC01fKBEcf62jiNLQz9VoFtCgpk&usp=drive_link"},
+        { "number": "PU-07", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1UehaFAvoE4xccQ_0dO2Ntr4jRE3pT3w&usp=drive_link"},
+        { "number": "PU-08", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1YFT5ZZCRrMoftoBxABBE4KmuELTgDy4&usp=drive_link"},
+        { "number": "PU-09", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1lyqpcsOB0kavjlPInAV6hVaEEV8cxBk&usp=drive_link"},
+        { "number": "PU-10", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1MFEHAEwxSUuAiOaQ7P_6pIN2wKH22oY&usp=drive_link"},
+        { "number": "PU-11", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1DxlN-hmKU2ayVQRfsUzfU4s3d6llHQ8&usp=drive_link"},
+        { "number": "PU-12", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1iOPVqGaQErNNyUWs5AppEC4F0D_63Kk&usp=drive_link"},
+        { "number": "PU-13", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1RVd3fYKf57ncqIG8Z4z2n9VJycH99cI&usp=drive_link"},
+        { "number": "PU-14", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1Tz967xbAnVw4CeTym16OU5voQ5rJGbk&usp=drive_link"},
+        { "number": "PU-15", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=16HE6x2MamU_eyU9bu3oQ1Yq1geLbkP4&usp=drive_link"},
+        { "number": "PU-16", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1LSu58DyaTZSvzar3bGpgovysVjuGkJY&usp=drive_link"},
+        { "number": "PU-17", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=163QjHAHreWtpBOLlWL87EHh9otbKP5s&usp=drive_link"},
+        { "number": "PU-18", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1PSIDIFgeNaNgEai3GSBG4lC0qUehewc&usp=drive_link"},
+        { "number": "PU-19", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1bp1IE0gtoSI6z0vUdxjOGAOuMLBON9M&usp=drive_link"},
+        { "number": "PU-20", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=12gd1OruCJ9w8ZTuqiGPtFKgsZNz9SHI&usp=drive_link"},
+        { "number": "PU-21", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1bzVLaThI6GS2S7ztNusjfUsWQ9CqHG8&usp=drive_link"},
+        { "number": "PU-22", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1Q_whFFzamvPZk0o04EZSu_yL6YlMzSo&usp=drive_link"},
+        { "number": "PU-23", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1lvAIHncy6njvaGEmFfzsCadEmmhKwrE&usp=drive_link"},
+        { "number": "PU-24", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1jiKKfENv2YzS4V4RsbR3yiMiO6bZSgg&usp=drive_link"},
+        { "number": "PU-25", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1S9yqAJi-u4OhMwLGaUv1cDj1GWC9J-s&usp=drive_link"},
+        { "number": "PU-26", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1RKwuFASD4bRYBSiRkhs6kdtHNg2bu9Q&usp=drive_link"},
+        { "number": "PU-27", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1sUqpFGXagIUdNJ5Fsc8bNAJynp6vc_g&usp=drive_link"},
+        { "number": "PU-28", "type": "Periurbano (Somio - La Providencia)", "url": "https://www.google.com/maps/d/edit?mid=1sV_uu6fyZZs5g3bW0xYKQAeDKYuTE6c&usp=drive_link"}
     ]
 }
