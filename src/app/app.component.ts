@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +11,12 @@ export class AppComponent {
   cards: any[] = [];
   card: any;
   number: any;
-  constructor(private http: HttpClient) {}
+  date: any = new Date();
+
+  constructor(private http: HttpClient, private _date: DatePipe) {}
 
   ngOnInit() {
-    this.http.get('/assets/data-structure.json').subscribe((data: any) => {
+    this.http.get('assets/data-structure.json').subscribe((data: any) => {
       this.cards = data.cards;
     });
   }
@@ -24,7 +27,10 @@ export class AppComponent {
     }
 
     const baseUrl = 'https://wa.me/34';
-    const message = `Hola, aquí tienes tu territorio asignado. 📍 Mapa: ${this.card.description}`;
+    var date4month : any = new Date(this.date);
+    date4month.setMonth(date4month.getMonth()+4)
+    const message = `*Territorios Congregación Parque*\n${this.card.type}\n*${this.card.number}* (${this._date.transform(this.date, 'dd/MM/yyyy')} - ${this._date.transform(date4month, 'dd/MM/yyyy')}) \n📍 Mapa: ${this.card.url} \n *NOTA:* Los límites del territorio coinciden con caminos o carreteras. La predicación debe realizarse dentro del margen interior.`;
+    
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `${baseUrl}${this.number}?text=${encodedMessage}`;
     
