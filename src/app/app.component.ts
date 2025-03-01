@@ -29,7 +29,7 @@ export class AppComponent {
     const baseUrl = 'https://wa.me/34';
     var date4month : any = new Date(this.date);
     date4month.setMonth(date4month.getMonth()+4)
-    const message = `*Territorios Congregación Parque*\n${this.card.type}\n*${this.card.number}* (${this._date.transform(this.date, 'dd/MM/yyyy')} - ${this._date.transform(date4month, 'dd/MM/yyyy')}) \n📍 Mapa: ${this.card.url} \n *NOTA:* Los límites del territorio coinciden con caminos o carreteras. La predicación debe realizarse dentro del margen interior.`;
+    const message = `*Territorios Congregación Parque*\n${this.card.type}\n*${this.card.number}* (${this._date.transform(this.date, 'dd/MM/yyyy')} - ${this._date.transform(date4month, 'dd/MM/yyyy')}) \n📍 Mapa: ${this.card.url} \n *NOTA:* Donde los límites del territorio coincidan con caminos o carreteras, la predicación debe realizarse dentro del margen interior de dicho camino o carretera`;
     
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `${baseUrl}${this.number}?text=${encodedMessage}`;

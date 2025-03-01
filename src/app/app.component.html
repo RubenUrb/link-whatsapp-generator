@@ -10,12 +10,11 @@
         <input matInput type="tel" [(ngModel)]="number" name="card" placeholder="Ingrese el teléfono">
       </mat-form-field>
 
-
       <mat-form-field appearance="outline">
         <mat-label>Territorio</mat-label>
         <mat-select [(ngModel)]="card" name="card">
           <mat-option *ngFor="let card of cards" [value]="card">
-            {{ card.title }}
+            {{ card.number }}
           </mat-option>
         </mat-select>
       </mat-form-field>
@@ -29,7 +28,7 @@
 
       <div class="button-container">
         <button mat-raised-button color="primary" (click)="generateLink()">
-          Generar
+          Generar Mensaje
         </button>
       </div>
     </form>
